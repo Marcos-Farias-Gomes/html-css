@@ -1,0 +1,19 @@
+--------------------
+estilos ccs internos
+--------------------
+ao invés de ser no body é no head, facilitando tudo.
+<style>
+	body{
+
+         backgroundcolor: lightsteelblue
+	}
+	h1{
+	backgroundcolor: darkred
+	}
+=====================================================
+estilos externos
+criar um "link css" style.css
+vai abrir um arquivo apenas para o css
+importar o link ja importa as cores
+mais prático
+=====================================================

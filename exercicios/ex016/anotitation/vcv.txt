@@ -1,0 +1,27 @@
+tipografia:
+altura x: alutura base das minusculas;
+altura das maiusculas;
+ascendente: sobra das das minusculas para cima;
+descedente: sobra inferior das minusculas;
+corpo: altura de tudo;
+======================================================
+°serifa: bordas que algumas fontes têm
+* existem varios tipos de fontes e elas são classificadas como:
+serifadas;
+não serifadas;
+monoespaçadas;
+handwriting;
+display;
+==============================================
+medidas absolutas:		***tamanho de 
+são muitas mas use "em" e "px"  letra e corpo
+==============================================
+tags importantes
+font-size: tamanho da letra
+font-family: work sans, sans-serif
+fonte-weight: peso da letra
+font-style: italic, italico
+text-decoration:underline, sublinhado
+***SHORTHAND: encurta todas essas tags numa só
+*** FONT: ITALIC BOLDER 3EM/ 18 PX WORKS SANS SANS-SERIF
+*** ORDEM: font-style fonte-weight font-size font-family

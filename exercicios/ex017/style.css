@@ -1,0 +1,27 @@
+@charset "UTF-8";
+body{
+    background-color: #F216CC;
+}
+h1#principal{
+    background-color: #1716F2;
+    color: white;
+}
+h1{
+    background-color: #5617FC;
+    color: white;
+}
+h2.basic{
+    background-color: #8d21e6;
+}
+h2.inter{
+    background-color: #D417FC;
+}
+h2.avanced{
+    background-color: #8d21e685;
+}
+h2{
+    color: white;
+}
+p{
+    color: white;
+}
