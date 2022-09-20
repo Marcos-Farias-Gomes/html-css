@@ -1,5 +1,71 @@
 @charset "UTF-8";
-p.cordel{
-    text-align: justify;
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Sriracha & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2:'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+    --fonte4: 'Pacifico', cursive;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    min-height: 100vh;
+    background-color: lightgray;
+    font-family: var(--fonte1);
+
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Passion One', cursive;
+    font-family: var(--fonte2);
+    font-size: 19px;
+}
+header h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+header > p{
+    padding-bottom: 50px;
+}
+a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em; 
+    padding-left: 30px;
+    font-family: var(--fonte3)
     
+}
+section#margin{
+    margin-top: 40px;
+}
+section.normal{
+    background-color: rgb(207, 228, 90);
+}
+section.imagem{
+    background-color: rgba(60, 255, 0, 0.808);
+    color: white;
+    margin-left: -30px;
+}
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.548);
+    
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
 }
