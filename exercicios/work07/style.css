@@ -14,7 +14,7 @@
 }
 html, body{
     min-height: 100vh;
-    background-color: lightgray;
+    background-color: #F4DCA0;
     font-family: var(--fonte1);
 
 }
@@ -51,18 +51,29 @@ section{
 }
 section#margin{
     margin-top: 40px;
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 section.normal{
-    background-color: rgb(207, 228, 90);
+    background-color: white;
 }
 section.imagem{
-    background-color: rgba(60, 255, 0, 0.808);
     color: white;
     margin-left: -30px;
+    box-shadow: inset 10px 10px 5px 0px rgba(0, 0, 0, 0.678);
 }
 section.imagem > p{
     background-color: rgba(0, 0, 0, 0.548);
-    
+    width: 250px;
+    text-shadow: 1px 1px 0px black;
+}
+section#img02{
+    background-image: url('imagens/background002.jpg');
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 footer{
     text-align: center;
