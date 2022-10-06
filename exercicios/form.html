@@ -10,14 +10,18 @@
     <h1>meu primeiro formulario</h1>
     <form action="cadastro.php" autocomplete="off" method="post">
         <p> <label for="iname"> Nome:</label>
-        <input type="text" name="name" id="iname">
+        <input type="text" name="name" id="iname" required minlength="3" size="6" >
         </p>
         <p>
             <label for="isobrenome"> Sobrenome:</label>
-            <input type="text" name="sobrenome" id="isobrenome" required="6">
+            <input type="text" name="sobrenome" id="isobrenome" required minlength="4" size="6" >
         </p>
         <p>
             <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+        <p>
+            <input type="date">
         </p>
        </form>
 </body>
